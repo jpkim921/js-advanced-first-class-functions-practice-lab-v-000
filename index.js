@@ -4,4 +4,6 @@ const callback = function (el, i, arr) {
   console.log(el.name);
 };
  
-drivers.forEach(callback);
+function logDriverNames(arr) {
+  return arr.forEach(callback);
+}
